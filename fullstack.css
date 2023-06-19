@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+nav#menu {
+    display: block; /* transformar tudo que é menu em block */
+    }
+
+nav#menu ul {
+
+    list-style: nome; /* remover marcadores da lista */
+    text-transform: uppercase; /* converter para maiusculo */
+    position: absolute;
+    top: 55px;
+    right: 680px;
+}
+
+nav#menu li {
+    display: inline-block; /*colocar os itens lado a lado*/
+    background-color: #ddd; /* cor do fundo cinza*/
+    padding: 10px;/* aumentar o espaçamento interno da caixa cinza*/
+    margin: 10px; /* aumentar o espaçamento externo da caixa cinza*/
+    transition: background-color 1s;
+
+}
+
+nav#menu li: hover {
+    background-color: #606060;
+}
+
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+color: #000;
+text-decoration: none;
+
+}
+
+nav#menu a:hover {
+color: #fff;
+text-decoration: underline;
+

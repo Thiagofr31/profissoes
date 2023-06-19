@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+
+div#interface {
+    /*position: relative; /* transforma a div em um container*/
+    background-color: #fff;
+    width: 900px;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 10px;
+}
+
+
+nav#menu {
+    display: block; /* transformar tudo que é menu em block */
+    }
+
+nav#menu ul {
+
+    list-style: nome; /* remover marcadores da lista */
+    text-transform: uppercase; /* converter para maiusculo */
+    position: absolute;
+    top: 55px;
+    right: 680px;
+}
+
+nav#menu li {
+    display: inline-block; /*colocar os itens lado a lado*/
+    background-color: #ddd; /* cor do fundo cinza*/
+    padding: 10px;/* aumentar o espaçamento interno da caixa cinza*/
+    margin: 10px; /* aumentar o espaçamento externo da caixa cinza*/
+    transition: background-color 1s;
+
+}
+
+nav#menu li: hover {
+    background-color: #606060;
+}
+
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+color: #000;
+text-decoration: none;
+
+}
+
+nav#menu a:hover {
+color: #fff;
+text-decoration: underline;
+
+}
+
+img#piroca {
+    height: 250px;
+    position: absolute;
+    left: 420px;
+    top: -2px;
+}
+
+img#analista {
+    height: 280px;
+    position: absolute;
+    left: 580px;
+    top: 450px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,1.5);
+    border: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+section{
+    color: white;
+}
+
+p#puta {
+    color: black;
+}
+
+h1#putinha {
+    color: black;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+    text-align: center;
+}
+
+
+footer#rodape p {
+    text-align: center;
+}
+
+header#cabecalho {
+border-bottom: 1px #606060 solid;
+height: 150px;
+background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+}
+
+nav#raniel {
+    display: block; /* transformar tudo que é menu em block */
+    }
+
+nav#raniel ul {
+
+    list-style: nome; /* remover marcadores da lista */
+    text-transform: uppercase; /* converter para maiusculo */
+    position: absolute;
+    top: 55px;
+    right: 680px;
+}
+
+nav#raniel li {
+    display: inline-block; /*colocar os itens lado a lado*/
+    background-color: #ddd; /* cor do fundo cinza*/
+    padding: 10px;/* aumentar o espaçamento interno da caixa cinza*/
+    margin: 10px; /* aumentar o espaçamento externo da caixa cinza*/
+    transition: background-color 1s;
+
+}
+
+nav#raniel li: hover {
+    background-color: #606060;
+}
+
+nav#raniel a {
+color: #000;
+text-decoration: none;
+
+}
+
+nav#raniel a:hover {
+color: #fff;
+text-decoration: underline;
+

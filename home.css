@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+
+
+div#interface {
+    position: relative; /* transforma a div em um container*/
+    background-color: #fff;
+    width: 900px;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 10px;
+    border-top: 1px solid #606060;
+}
+
+header#cabecalho {
+border-bottom: 1px #606060 solid;
+height: 150px;
+background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+}
+
+
+nav#menu {
+    display: block; /* transformar tudo que é menu em block */
+    }
+
+nav#menu ul {
+
+    list-style: nome; /* remover marcadores da lista */
+    text-transform: uppercase; /* converter para maiusculo */
+    position: absolute;
+    top: 65px;
+    right: 190px;
+}
+
+nav#menu li {
+    display: inline-block; /*colocar os itens lado a lado*/
+    background-color: #ddd; /* cor do fundo cinza*/
+    padding: 10px;/* aumentar o espaçamento interno da caixa cinza*/
+    margin: 10px; /* aumentar o espaçamento externo da caixa cinza*/
+    transition: background-color 1s;
+}
+
+nav#menu li: hover {
+    background-color: #606060;
+}
+
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+color: #000;
+text-decoration: none;
+
+}
+
+nav#menu a:hover {
+color: #fff;
+text-decoration: underline;
+
+}
+
+img#piroca {
+    height: 250px;
+    position: absolute;
+    left: -50px;
+    top: 10px;
+}
+
+img#vasco {
+    height: 350px;
+    padding: 80px;
+}
+
+img#meudeus {
+    height: 350px;
+    padding: 80px;
+}
+
+img#caramba {
+    height: 350px;
+    padding: 80px;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+    text-align: center;
+}
+
+
+footer#rodape p {
+    text-align: center;
+}
+
+hgroup {
+    color: white;
+}
+
